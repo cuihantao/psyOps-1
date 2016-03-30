@@ -1,4 +1,4 @@
-# ppsyOps
+# ppsyOps (sī- ŏps) 
 Python Power Systems for Operations
 
 Goal
