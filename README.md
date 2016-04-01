@@ -1,5 +1,5 @@
-# ppsyOps (sī- ŏps) 
-Python Power Systems for Operations
+# psyOps (sī- ŏps) 
+Power System Operations
 
 Goal
 Create a well-documented, easy to learn, power flow and analysis toolkit for professional power systems engineers.  Not intended to replace tools like PSS/e, PowerWorld and TARA.  Rather intended to validate the results of those projects, create a toolbox to leverage those systems and make your job as a power systems engineer easier.
