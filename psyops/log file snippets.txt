@@ -1,0 +1,63 @@
+*** Closed command file [amb_snapshotD.dir] - 24 records (Lev=2)
+ 
+ AMB case converged in 44 iterations.
+ ------------------ Creating snapshot 25 for  2016-05-02 00:00 --------------- 
+ Applying Outages and Transactions and Load Forecasts
+ Generators changes from the current conditions for the period from 2016-05-02 08:00 to 2016-05-02 23:00 (EST)
+ *********** SDX generator outages summary ***********
+ Outages   :  0
+ Retrn Onln:  0
+ Derates   : 73
+ DirectDisp:170
+ PumpDisp  :  0
+ Load Disp :  0
+ SVC       :  0
+ Bus Shunt :  0
+ Swit Shnt :  0
+ ========= Report on generator status/dispatch changes for the period 2016-05-02 08:00 to 2016-05-02 23:00(EST)
+ From the Base Case 
+  Bus# BusName      Volt Area Zone  ID  BasCasMW     BasCsSta      PMin      PMax     Type  newSetPn  YYYY-MM-DD HH:MM  YYYY-MM-DD HH:MM 
+200642 26SENECA#1   13.8  225   11  1P       0.0            0    -210.0    -210.0   Outage       0.0  2015-11-02 07:00  2064-01-01 23:00 
+200643 26SENECA#2   13.8  225   11  2P       0.0            0    -195.0    -195.0   Outage       0.0  2015-11-02 07:00  2064-01-01 23:00 
+315201 1BATH 1A     20.5  345 1731  A        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+315202 1BATH 2B     20.5  345 1731  B        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+315203 1BATH 3C     20.5  345 1731  C        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+315204 1BATH 4D     20.5  345 1731  D        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+315205 1BATH 5E     20.5  345 1731  E        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+315206 1BATH 6F     20.5  345 1731  F        0.0            0    -485.0    -300.0   Outage       0.0  2015-10-02 07:00  2064-01-01 23:00 
+699208 EDG G5       22.0  694  694  5      397.5            1     120.0     397.5   Outage       0.0  2016-04-23 00:00  2016-05-31 00:00 
+693783 JUNEAU J31   13.8  694  694  1        0.0            1      12.3      12.4   Outage       0.0  2013-07-14 07:00  2017-03-01 01:00 
+630782 GRNLL CT1    13.2  627  627  1        0.0            1       0.0      27.5   Outage       0.0  2015-11-24 09:00  2016-05-03 00:00 
+629075 OTTUMW1G     24.0  627  627  1      806.6            1     208.0     806.6   Outage       0.0  2016-04-30 00:00  2016-05-16 00:00 
+630787 PR CRK3G     13.2  627  627  3        0.0            1      18.0      50.5   Outage       0.0  2016-04-30 00:00  2016-05-23 00:00 
+630773 SUTHL CT3    13.5  627  627  3C       0.0            1       0.0      66.0   Outage       0.0  2016-02-29 01:00  2016-07-30 00:00 
+349993 1ALSEY G1-G2 13.8  357  357  1        0.0            1       0.0      25.0   Outage       0.0  2016-04-18 07:00  2016-05-06 19:00 
+349995 1ALSEY G5-G6 13.8  357  357  6        0.0            0       5.0      42.0   Outage       0.0  2016-03-01 01:00  2016-06-25 01:00 
+
+
+
+
+
+
+
+ 999  WSC8               0.00       -2.0       -2.0  599950 LAMAR7        345      -1.00    1000.00 
+ 41p     0.002 515040  1.0463  -0.525    -0.000 998600  1.0364  -0.091     0.000  0.00000 661045  1.0200   0.524
+ 41q     0.013 160154  1.1065  -0.879     0.003 998600  1.0364  -0.091     0.000
+ day35. Fast Dec LF solved in 41 iterations. LargMism(MW) P=0.0129 Q=0.0027 Toln=1.0000
+
+ Swing bus dispatch summary
+   Bus# BusName      Volt Area AreaName      Zon ZoneName      DispChan   curPGen  PrevPGen   MinPGen   MaxPGen   curQGen   MinQGen   MaxQGen  VltSched 
+ 364003 1BR FERRY N3 22.0  347 TVA          1360 MUSCLE SHOAL   -140.56   1028.94   1169.50   1112.00   1169.50     54.83   -150.00    300.00    1.0400 
+ Total Swing Dispatch change =    -140.56
+ 1 voltages controlled buses with max MVArs limits increased
+ Select load flow solution or report function: (L2): [ 0]
+ Executing AMB shell(L1): [  0]
+ Executing AMB shell(L1): [ End]
+*** Closed command file [amb_solve1.dir] - 10 records (Lev=3)
+ 
+ Executing AMB shell(L1): [ READ]  = Selected Function  1 - READ       - Read TARA input files  
+ 
+ Select function(L2): [ CONT]  = Selected Function 13 - CONTIN     - Read contingency file  
+ 
+ 
+ Define Contingency File:[ "fgates\none.con"]
